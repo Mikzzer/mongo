@@ -76,7 +76,7 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: configmap-express
-              key: klucz
+              key: database_url
 
 ---
 apiVersion: v1
